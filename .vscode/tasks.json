@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "yaml2json",
+			"problemMatcher": [],
+			"label": "npm: yaml2json",
+			"detail": "npx js-yaml syntaxes/txt.tmLanguage.yaml > syntaxes/txt.tmLanguage.json",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

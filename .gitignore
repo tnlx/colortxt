@@ -1,2 +1,3 @@
 node_modules
+syntaxes/txt.tmLanguage.json
 *.vsix
