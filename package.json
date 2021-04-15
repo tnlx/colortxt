@@ -2,6 +2,9 @@
     "name": "colortxt",
     "displayName": "colortxt",
     "description": "Raw text highlights",
+    "scripts": {
+        "yaml2json": "npx js-yaml syntaxes/txt.tmLanguage.yaml > syntaxes/txt.tmLanguage.json"
+    },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
@@ -10,16 +13,28 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "txt",
-            "aliases": ["text", "txt"],
-            "extensions": [".txt"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "txt",
-            "scopeName": "source.txt",
-            "path": "./syntaxes/txt.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "txt",
+                "aliases": [
+                    "text",
+                    "txt"
+                ],
+                "extensions": [
+                    ".txt"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "txt",
+                "scopeName": "source.txt",
+                "path": "./syntaxes/txt.tmLanguage.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "js-yaml": "^4.1.0"
     }
 }
