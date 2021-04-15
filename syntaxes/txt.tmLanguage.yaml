@@ -5,6 +5,8 @@ patterns:
  - include: "#heading_1"
  - include: "#heading_2"
  - include: "#heading_3"
+ - include: "#bracket_notes"
+ - include: "#quotes"
 repository:
  heading_1:
   patterns:
@@ -18,3 +20,11 @@ repository:
   patterns:
    - name: "keyword.operator.txt"
      match: "^(([0-9]|[a-z]|[A-Z])*[.-\\/)]){3,}\\s.*"
+ bracket_notes:
+  name: "comment.block.txt"
+  begin: "\\("
+  end: "\\)"
+ quotes:
+  name: "comment.block.documentation.txt"
+  begin: "\""
+  end: "\""
