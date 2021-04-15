@@ -1,0 +1,25 @@
+{
+    "name": "colortxt",
+    "displayName": "colortxt",
+    "description": "Raw text highlights",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "txt",
+            "aliases": ["text", "txt"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "txt",
+            "scopeName": "source.txt",
+            "path": "./syntaxes/txt.tmLanguage.json"
+        }]
+    }
+}
