@@ -12,15 +12,15 @@ repository:
  heading_1:
   patterns:
    - name: "keyword.control.txt"
-     match: "^([0-9]|[a-z]|[A-Z])*[.-\\/)]{1}\\s.*"
+     match: "^([0-9]|[a-z]|[A-Z]){1,}[.\\-\\/)]{1}\\s.*"
  heading_2:
   patterns:
    - name: "keyword.other.txt"
-     match: "^(([0-9]|[a-z]|[A-Z])*[.-\\/)]){2}\\s.*"
+     match: "^(([0-9]|[a-z]|[A-Z]){1,}[.\\-\\/)]){2}\\s.*"
  heading_3:
   patterns:
    - name: "keyword.operator.txt"
-     match: "^(([0-9]|[a-z]|[A-Z])*[.-\\/)]){3,}\\s.*"
+     match: "^(([0-9]|[a-z]|[A-Z]){1,}[.\\-\\/)]){3,}\\s.*"
  bracket_notes:
   name: "comment.block.txt"
   begin: "\\("
