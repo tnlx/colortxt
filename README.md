@@ -1,5 +1,7 @@
 # ColorTXT
 
+`v0.0.1`
+
 Simple vscode extension for raw text highlights.
 
 ## Features
@@ -20,4 +22,4 @@ yaml is converted to json using [js-yaml](https://www.npmjs.com/package/js-yaml)
 
 ## Release Notes
 
-### 0.0.1
+### [0.0.1](CHANGELOG.md#001---2017-06-20)
