@@ -18,12 +18,6 @@ Apply colors for various places in text files so that they have a friendly appea
 #### dev-dependency
 yaml is converted to json using [js-yaml](https://www.npmjs.com/package/js-yaml)
 
-## Extension Settings
-
-
-## Known Issues
-
-
 ## Release Notes
 
-### 1.0.0
+### 0.0.1

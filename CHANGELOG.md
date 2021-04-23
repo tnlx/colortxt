@@ -2,8 +2,13 @@
 
 All notable changes to the "colortxt" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 
 ## [Unreleased]
 
-- Initial release
+## [0.0.1] - 2017-06-20
+Initial version: apply colors for headers, quotes, bracket notes and list subjects
+- Headers: `<number/text><separator: ., -, or / /><space>`
+- Quotes: Texts inside `" "`
+- Bracket notes: Texts inside `( )`
+- List subjects: Texts between `-` and `:` (at beginning of a new line)
