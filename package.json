@@ -2,15 +2,18 @@
     "name": "colortxt",
     "displayName": "colortxt",
     "description": "Raw text highlights",
+    "publisher": "tanialx",
+    "repository": "https://github.com/tanialx/colortxt",
     "scripts": {
-        "yaml2json": "npx js-yaml syntaxes/txt.tmLanguage.yaml > syntaxes/txt.tmLanguage.json"
+        "yaml2json": "npx js-yaml syntaxes/txt.tmLanguage.yaml > syntaxes/txt.tmLanguage.json",
+        "vscode:prepublish": "npx js-yaml syntaxes/txt.tmLanguage.yaml > syntaxes/txt.tmLanguage.json"
     },
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.55.0"
     },
     "categories": [
-        "Programming Languages"
+        "Other"
     ],
     "contributes": {
         "languages": [
